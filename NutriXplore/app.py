@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load the trained model
-model = tf.keras.models.load_model('indian_food_classifier_mobilenetv5.keras')
+model = tf.keras.models.load_model('NutriXplore/indian_food_classifier_mobilenetv5.keras')
 
 # Class Labels
 class_labels = ["burger", "butter_naan", "chai", "chapati", "chole_bhature", 
