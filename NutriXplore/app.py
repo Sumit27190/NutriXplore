@@ -104,4 +104,4 @@ if uploaded_file is not None:
     else:
         st.warning("ℹ️ Nutritional info not available for this food item.")
 
-st.write("📌 Built with ❤️ by **Sumit and team**")
+st.write("📌 Built with ❤️")
