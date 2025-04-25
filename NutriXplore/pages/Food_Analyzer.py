@@ -21,7 +21,7 @@ uploaded_file = st.file_uploader("📤 Upload a food image...", type=["jpg", "jp
 
 if uploaded_file:
     image_data = Image.open(uploaded_file)
-    st.image(image_data, caption="📷 Uploaded Image", use_column_width=True)
+    st.image(image_data, caption="📷 Uploaded Image", use_container_width=True)
     img = image_data.resize((224, 224))
     img_array = image.img_to_array(img) / 255.0
     img_array = np.expand_dims(img_array, axis=0)
