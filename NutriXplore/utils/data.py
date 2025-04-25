@@ -24,6 +24,13 @@ food_classes = [
 ]
 
 
+# utils/data.py
+class_labels = [
+    "burger", "butter_naan", "chai", "chapati", "chole_bhature", 
+    "dal_makhani", "dhokla", "fried_rice", "idli", "jalebi", 
+    "kaathi_rolls", "kadai_paneer", "kulfi", "masala_dosa", 
+    "momos", "paani_puri", "pakode", "pav_bhaji", "pizza", "samosa"
+]
 
 
 
