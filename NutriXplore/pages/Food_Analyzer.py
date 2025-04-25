@@ -7,6 +7,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 st.title("🔍 Food Analyzer")
+import os
+st.write("Model file found:", os.path.exists('indian_food_classifier_mobilenetv5.keras'))
 
 model = tf.keras.models.load_model('indian_food_classifier_mobilenetv5.keras')
 
