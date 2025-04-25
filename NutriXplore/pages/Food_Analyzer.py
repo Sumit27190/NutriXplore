@@ -9,10 +9,10 @@ import os
 
 st.title("🔍 Food Analyzer")
 
-model_path = '/mount/src/Nutrixplore/Nutrixplore/indian_food_classifier_mobilenetv5.keras'
+model_path = '/mount/src/NutriXplore/NutriXplore/indian_food_classifier_mobilenetv5.keras'
 st.write("Model file exists:", os.path.exists(model_path))
 st.write("Absolute path:", os.path.abspath(model_path))
-st.write("Contents of /mount/src/Nutrixplore/Nutrixplore/:", os.listdir('/mount/src/Nutrixplore/Nutrixplore/'))
+st.write("Contents of /mount/src/NutriXplore/NutriXplore/:", os.listdir('/mount/src/NutriXplore/NutriXplore/'))
 
 model = tf.keras.models.load_model(model_path)
 
