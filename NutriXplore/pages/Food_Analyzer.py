@@ -5,12 +5,15 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 from PIL import Image
 import matplotlib.pyplot as plt
+import os
 
 st.title("🔍 Food Analyzer")
-import os
-st.write("Model file found:", os.path.exists('indian_food_classifier_mobilenetv5.keras'))
-st.write(os.path.abspath())
-model = tf.keras.models.load_model('indian_food_classifier_mobilenetv5.keras')
+
+model_path = 'indian_food_classifier_mobilenetv5.keras'
+st.write("Model file exists:", os.path.exists(model_path))
+st.write("Absolute path:", os.path.abspath(model_path))
+
+model = tf.keras.models.load_model(model_path)
 
 health_condition = st.selectbox("🩺 Select your health condition:", ["None", "Diabetes", "Heart Disease", "Weight Loss"])
 uploaded_file = st.file_uploader("📤 Upload a food image...", type=["jpg", "jpeg", "png"])
