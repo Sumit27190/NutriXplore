@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 st.title("🔍 Food Analyzer")
 import os
 st.write("Model file found:", os.path.exists('indian_food_classifier_mobilenetv5.keras'))
-
+st.write(os.path.abspath())
 model = tf.keras.models.load_model('indian_food_classifier_mobilenetv5.keras')
 
 health_condition = st.selectbox("🩺 Select your health condition:", ["None", "Diabetes", "Heart Disease", "Weight Loss"])
