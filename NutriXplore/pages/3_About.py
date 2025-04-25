@@ -7,10 +7,12 @@ NutriXplore is a smart food analysis tool created by a group of passionate engin
 We aim to help users make healthier food choices by combining AI with nutrition knowledge.
 
 **Team Members:**
-- Sumit
-- Member 2
-- Member 3
-- Member 4
+- Sumit Kapse
+- Sarvesh Avhad
+- Advait Dahitule
+- Ranjit Bhogil
 
 Feel free to reach out for collaboration!
+
+Mail - datawizard27@gmail.com
 """)
