@@ -9,7 +9,7 @@ import os
 
 st.title("🔍 Food Analyzer")
 
-model_path = 'indian_food_classifier_mobilenetv5.keras'
+model_path = '/mount/src/nutrixplore/indian_food_classifier_mobilenetv5.keras'
 st.write("Model file exists:", os.path.exists(model_path))
 st.write("Absolute path:", os.path.abspath(model_path))
 
